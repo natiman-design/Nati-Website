@@ -1,0 +1,69 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image:Linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Economics.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: rgba(245, 229, 12, 0.904);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid rgb(160, 160, 160);
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid rgb(160, 160, 160);
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h1
+{
+    color:rgba(255, 255, 0, 0.603);
+    text-transform: upper case;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+p
+{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color:yellow;
+    
+}
